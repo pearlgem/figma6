@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma-housie</title>
+    <style>
+        #navilinks > li:hover {
+            overflow-x: hidden;
+    cursor: pointer;
+
+}
+
+.card>img {
+    height: 300px;
+    width: 100%;
+}
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid py-4 px-10 ">
+        <!-- NAVIGATION  -->
+        <nav class=" container-fluid ml-8 h-16 bg-[#fafafa] rounded-full flex items-center justify-between">
+
+            <div class="logo"><img src="Logo.png" style="padding-left: 1.3rem; padding-right: 5rem; padding-bottom: 5px;" alt=""></div>
+            <div class="w-fit ">
+                <ul id="navilinks" class="flex gap-4 font-mono font-bold " style="font-size: larger;">
+                    <li>About us</li>
+                    <li>Projects</li>
+                    <li>Jhopri house</li>
+                    <li>Services</li>
+                    <li>Listings</li>
+                    <li><label for="inputie"><i class="fa-solid fa-magnifying-glass"></i></label></li>
+                    <input id="inputie" type="text" placeholder="search"  class="outline-none bg-transparent">
+                </ul>
+            </div>
+            <div><button class="w-40 rounded-full h-10 text-lg bg-[#fafafa] mx-10  btn btn-outline-primary" >Contact us</button></div>
+                
+            
+            
+            
+        </nav>
+<!-- NAVIGATIONS ENDS -->
+
+
+<!-- MAIN CONTENT HERE  -->
+        <header class="w-[1500px] rounded-2xl p-10 mt-6 ml-8 " style="height: 37.5rem; background: linear-gradient(to top,#C1DEE8, #FBD9B9);">
+            <div class="row">
+            <div class="col-6 flex flex-col gap-6  justify-center" style="height: 37rem;">
+                <h1 class="text-3xl font-medium">Welcome to Realstate</h1>
+                <h2 class="text-7xl font-bold" style="white-space: pre-line;">Manage Your
+                     Property</h2>
+                <p  style="white-space: pre-line;" class="text-2xl" >Your will have everything nearby supermarket, buses , 
+                    station, the carmen neighborhood, etc</p>
+                <div class="input-group mb-3 w-4/5 h-16">
+                    <input type="text" class="form-control rounded-full" placeholder="Your secret" 
+                    aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <span class="input-group-text rounded-full bg-black text-white" id="basic-addon2">Get Dissapointed</span>
+                  </div>
+            </div>
+            <div class="col-6 "><img  src="main house.png" alt=""></div>
+        </div>
+        <div class="row flex w-full h-4/5">
+            <div class=" h-24 flex flex-col items-center justify-center ">
+                <h3 class="text-lg">Three steps. Three minutes.</h3>
+                <h1 class="text-5xl font-bold">Everything should be this easy.</h1>
+            </div>
+            <div class="row mt-8"><img src="Group 9.png" style="height: 80%; width: 100%;" alt=""></div>
+           
+        </div>
+        <div class="row">
+          <div class="col-3 font-semibold text-3xl py-3">Best Project of the Years</div>
+          <div class="text-6xl font-bold mb-10">Our recent Projects</div>
+           <div class="row flex gap-40">
+            <div class="col-3"><div class="card" style="width: 31rem;">
+                <img src="burj khalifa.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title font-bold text-2xl">Junior Bruj khalifa</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.</p>
+                  
+                </div>
+              </div></div>
+            <div class="col-3"><div class="card" style="width: 31rem;">
+                <img src="https://i.pinimg.com/736x/33/5f/9a/335f9ae9901d4528bed27db7edf0d13d.jpg" class="card-img-top" alt="...">
+                <div class="card-body ">
+                  <h5 class="card-title font-bold text-2xl">5foot house</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.</p>
+                  
+                </div>
+              </div></div>
+            <div class="col-3"><div class="card" style="width: 31rem;">
+                <img src="https://i.pinimg.com/736x/43/53/49/43534956e67fe596beb147c1536f2778.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title font-bold text-2xl">8th wonder</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.</p>
+                  
+                </div>
+              </div></div>
+           </div>
+            
+            
+        </div>
+
+        <div class="row flex w-full h-4/5">
+            <div class=" h-24 flex flex-col items-center justify-center ">
+                
+                <h1 class="text-5xl font-bold w-2/4 text-center mt-52">We are a global, boutique real estate brokerage</h1>
+            </div>
+            <div class="row  ml-6 mt-40">
+                <div class="col-6 flex flex-col gap-4 p-14 " style="height: 37rem;">
+                    <h1 class="text-5xl w-[750px] font-medium">The transfer of real estate</h1>
+                    
+                    <p  style="white-space: pre-line;" class="text-xl" >Lorem ipsum dolor sit amet consectetur. Feugiat ut aliquet sit pellentesque sollicitudin. Egestas faucibus lacus diam in senectus consectetur. Mattis elit adipiscing quisque tellus scelerisque vehicula ante nunc. Tellus consequat nisl quis nisl justo.</p>
+                    <div class="mb-3 w-4/5 h-16 flex gap-7">
+                        <button type="button" class="btn btn btn-dark btn-lg rounded-full">Book Now!</button>
+                        <button type="button" class="btn btn-outline-light border-gray-400 text-black rounded-full">Read More</button>
+                      </div>
+                      <div class="row  flex pl-5 gap-4">
+                        <div class="col-3">
+                            <h1 class="text-6xl font-semibold" >12<span class="font-extrabold">+</span></h1>
+                            <h3>Consumers</h3>
+                        </div>
+                        <div class="col-3">
+                            <h1 class="text-6xl font-semibold" >14<span class="font-extrabold">+</span></h1>
+                            <h3>offices</h3>
+                        </div>
+                        <div class="col-3">
+                            <h1 class="text-6xl font-semibold" >10<span class="font-extrabold">+</span></h1>
+                            <h3>students</h3>
+                        </div>
+
+                      </div>
+                </div>
+                <div class="col-6 flex justify-end "><img  src="consulting.png" alt=""></div>
+            </div>
+            <div style="background: linear-gradient(to top,#C1DEE8, #FBD9B9);" class="row rounded-3xl mt-36">
+                <div class="col-6 flex flex-col gap-6 mt-10 justify-center" style="height: 30rem;">
+                    
+                    <h2 class="text-7xl font-bold" style="white-space: pre-line;">Subscribe Our Newsletter</h2>
+                    <p  style="white-space: pre-line;" class="text-lg" >Lorem ipsum dolor sit amet consectetur. Feugiat ut aliquet sit pellentesque sollicitudin. Egestas faucibus lacus diam in senectus consectetur. Mattis elit adipiscing quisque tellus scelerisque vehicula ante nunc.</p>
+                    <div class="input-group mb-3 w-4/5 h-16">
+                        <input type="text" class="form-control rounded-full" placeholder="Your improtant Email..." 
+                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <span class="input-group-text rounded-full bg-black text-white" id="basic-addon2">Sign up</span>
+                      </div>
+                </div>
+                <div class="col-6 "><img  src="last housie.png" alt=""></div>
+            </div>
+
+
+
+
+        </header>
+<!-- MAIN CONTENT HERE  -->
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
